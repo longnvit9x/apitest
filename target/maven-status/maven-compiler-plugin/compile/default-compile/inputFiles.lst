@@ -4,4 +4,6 @@ E:\spring-boot\web-thymeleaf-war\src\main\java\com\mkyong\dao\UserDao.java
 E:\spring-boot\web-thymeleaf-war\src\main\java\com\mkyong\servies\UserService.java
 E:\spring-boot\web-thymeleaf-war\src\main\java\com\mkyong\models\User.java
 E:\spring-boot\web-thymeleaf-war\src\main\java\com\mkyong\controller\WelcomeController.java
+E:\spring-boot\web-thymeleaf-war\src\main\java\com\mkyong\dao\UserBo.java
+E:\spring-boot\web-thymeleaf-war\src\main\java\com\mkyong\dao\UserBoImpl.java
 E:\spring-boot\web-thymeleaf-war\src\main\java\com\mkyong\StartWebApplication.java

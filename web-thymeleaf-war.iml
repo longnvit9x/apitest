@@ -4,6 +4,7 @@
     <facet type="hibernate" name="Hibernate">
       <configuration>
         <datasource-map>
+          <unit-entry name="com:mkyong:entitys:hibernate.cfg.xml" value="a9a5cef1-90f2-410d-82c1-6876d58ff87c" />
           <unit-entry name="com:mkyong:hibernate.cfg.xml" value="1b8f7f63-e1d1-4f19-8beb-965d681fae0e" />
         </datasource-map>
         <naming-strategy-map />

@@ -1,18 +1,10 @@
 package com.mkyong.dao;
 
 import com.mkyong.entitys.UserEntity;
-import org.hibernate.SessionFactory;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import javax.annotation.Resource;
-
 @Repository
-public class UserDao {
-
-    @Resource
-    private SessionFactory sessionFactory;
-
-    private UserEntity get(Integer id){
-        return (UserEntity) sessionFactory.getCurrentSession().get(UserEntity.class,id);
-    }
+public interface UserDao extends JpaRepository<UserEntity, Integer> {
+    UserEntity findByLogin(String login);
 }
